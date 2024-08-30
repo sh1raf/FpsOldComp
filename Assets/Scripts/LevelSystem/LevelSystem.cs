@@ -12,7 +12,6 @@ public class LevelSystem : MonoBehaviour
     [SerializeField] private List<Image> levels = new();
 
     [Inject] private SceneLoader _sceneLoader;
-    
 
     private int _lastOpenedLevel;
     private int _currentLevelNumber;

@@ -9,9 +9,11 @@ using Zenject;
 
 public class WeaponHolder : MonoBehaviour
 {
-    [Inject] private PlayerInput _input;
 
     [SerializeField] private int _currentWeaponIndex;
+
+    [Inject] private PlayerInput _input;
+
     private List<Weapon> _weapons = new();
     private Weapon _currentWeapon;
 

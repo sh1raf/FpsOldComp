@@ -19,6 +19,10 @@ public class ZombieAI : MonoBehaviour
     [SerializeField] private float minSpeed;
     [SerializeField] private float maxSpeed;
 
+    [SerializeField] private SourceAudio source;
+
+    public bool IsDead{get{return _isDead;} private set{}}
+
     private Player _player;
 
     private Animator _animator;
@@ -30,9 +34,7 @@ public class ZombieAI : MonoBehaviour
     private bool _playerInAttackRange = false;
 
     private bool _isDead = false;
-    public bool IsDead{get{return _isDead;} private set{}}
 
-    [SerializeField] private SourceAudio source;
 
     private void Start()
     {

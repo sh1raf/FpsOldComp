@@ -56,163 +56,165 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Users\mrshr\OneDrive\Документы\GitHub\FpsOldComp\Assets\OtherAssets\Newtonsoft.Json-for-Unity-13.0.102\Plugins\Newtonsoft.Json AOT\Newtonsoft.Json.dll" />
+    <Analyzer Include="C:\Users\mrshr\OneDrive\Документы\GitHub\FpsOldComp\Assets\OtherAssets\Newtonsoft.Json-for-Unity-13.0.102\Plugins\Newtonsoft.Json Editor\Newtonsoft.Json.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.37f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.37f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\UI\Slot.cs" />
-    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
-    <Compile Include="Assets\InChistovick\MazeGenerator\Scripts\MazeSpawner.cs" />
+    <Compile Include="Assets\OtherAssets\SlimUI\Modern Menu 1\Scripts\ThemeEditor\ThemedUIElement.cs" />
+    <Compile Include="Assets\OtherAssets\SimpleMan\VisualRaycast\Demo\Scripts\Raycaster.cs" />
     <Compile Include="Assets\Scripts\LevelSystem\LevelSystem.cs" />
-    <Compile Include="Assets\JMO Assets\WarFX\Scripts\CFX_AutoDestructShuriken.cs" />
     <Compile Include="Assets\Scripts\Installers\RestartPanelInstaller.cs" />
-    <Compile Include="Assets\RagdollAddon\ColliderOperations.cs" />
-    <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\WFX_Demo_RandomDir.cs" />
+    <Compile Include="Assets\OtherAssets\SlimUI\Modern Menu 1\Scripts\Managers\UIMenuManager.cs" />
     <Compile Include="Assets\Scripts\Installers\DescriptionInstaller.cs" />
     <Compile Include="Assets\Scripts\Zombie\ZombieHealthLogic.cs" />
-    <Compile Include="Assets\InChistovick\MazeGenerator\Scripts\Finish.cs" />
     <Compile Include="Assets\Scripts\Player\FirstPersonAudio.cs" />
     <Compile Include="Assets\Scripts\Zombie\ZombieAI.cs" />
+    <Compile Include="Assets\OtherAssets\JMO Assets\WarFX\Demo\Assets\WFX_Demo_New.cs" />
     <Compile Include="Assets\Scripts\HealthLogic.cs" />
     <Compile Include="Assets\Scripts\Player\FirstPersonLook.cs" />
+    <Compile Include="Assets\OtherAssets\JMO Assets\WarFX\Scripts\CFX_AutoDestructShuriken.cs" />
     <Compile Include="Assets\Scripts\Installers\PlayerInstaller.cs" />
     <Compile Include="Assets\Scripts\Installers\WeaponHolderInstaller.cs" />
-    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
-    <Compile Include="Assets\JMO Assets\WarFX\Scripts\CFX_LightIntensityFade.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\MazeGenerator\Scripts\RollerBall.cs" />
     <Compile Include="Assets\Scripts\Player\Components\Jump.cs" />
-    <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Managers\UIMenuManager.cs" />
-    <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Misc\ResetDemo.cs" />
-    <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\ThemeEditor\ThemedUIElement.cs" />
-    <Compile Include="Assets\RagdollAddon\RigidbodyArrayOperations.cs" />
+    <Compile Include="Assets\OtherAssets\RagdollAddon\RagdollOperations.cs" />
+    <Compile Include="Assets\OtherAssets\JMO Assets\WarFX\Demo\Assets\WFX_Demo_Wall.cs" />
+    <Compile Include="Assets\OtherAssets\FXIFIED\common\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\MazeGenerator\Scripts\BasicMazeGenerator.cs" />
     <Compile Include="Assets\Scripts\UI\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Player\Components\Crouch.cs" />
     <Compile Include="Assets\Scripts\Player\ZombieDetection.cs" />
-    <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
-    <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\WFX_Demo_DeleteAfterDelay.cs" />
+    <Compile Include="Assets\OtherAssets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\MazeGenerator\Scripts\RandomTreeMazeGenerator.cs" />
+    <Compile Include="Assets\OtherAssets\SlimUI\Modern Menu 1\Scripts\Misc\ExtraLinks.cs" />
     <Compile Include="Assets\Scripts\Player\Player.cs" />
     <Compile Include="Assets\Scripts\Installers\SceneLoaderInstaller.cs" />
     <Compile Include="Assets\Scripts\SceneLoading\SceneLoader.cs" />
+    <Compile Include="Assets\OtherAssets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\Scripts\UI\PausePanel.cs" />
-    <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
+    <Compile Include="Assets\OtherAssets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
     <Compile Include="Assets\Scripts\Installers\ShopInstaller.cs" />
-    <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
-    <Compile Include="Assets\FXIFIED\common\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Misc\ExtraLinks.cs" />
-    <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\WFX_Demo_New.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\MazeGenerator\Scripts\RecursiveTreeMazeGenerator.cs" />
+    <Compile Include="Assets\OtherAssets\SlimUI\Modern Menu 1\Scripts\Misc\ResetDemo.cs" />
+    <Compile Include="Assets\OtherAssets\JMO Assets\WarFX\Spawn System\CFX_SpawnSystem.cs" />
+    <Compile Include="Assets\Scripts\UI\Exit.cs" />
+    <Compile Include="Assets\OtherAssets\JMO Assets\WarFX\Scripts\WFX_BulletHoleDecal.cs" />
+    <Compile Include="Assets\NewInput\PlayerInput.cs" />
     <Compile Include="Assets\Scripts\Installers\PausePanelInstaller.cs" />
     <Compile Include="Assets\Scripts\Audio\VolumeController.cs" />
+    <Compile Include="Assets\OtherAssets\FXIFIED\common\Scripts\PowerUp.cs" />
+    <Compile Include="Assets\OtherAssets\JMO Assets\WarFX\Scripts\CFX_LightIntensityFade.cs" />
+    <Compile Include="Assets\OtherAssets\JMO Assets\WarFX\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
     <Compile Include="Assets\Scripts\Weapon\Grenade.cs" />
     <Compile Include="Assets\Scripts\Audio\Music.cs" />
     <Compile Include="Assets\Scripts\Weapon\GrenadeGun.cs" />
-    <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Managers\UISettingsManager.cs" />
-    <Compile Include="Assets\InChistovick\MazeGenerator\Scripts\RandomTreeMazeGenerator.cs" />
     <Compile Include="Assets\Scripts\UI\WaultUI.cs" />
-    <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Audio\CheckSFXVolume.cs" />
-    <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\ThemeEditor\ThemedUI.cs" />
-    <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\CFX_Demo_Translate.cs" />
-    <Compile Include="Assets\InChistovick\MazeGenerator\Scripts\MazeCell.cs" />
-    <Compile Include="Assets\PlayerInput.cs" />
+    <Compile Include="Assets\OtherAssets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
+    <Compile Include="Assets\OtherAssets\JMO Assets\WarFX\Scripts\WFX_LightFlicker.cs" />
+    <Compile Include="Assets\OtherAssets\JMO Assets\WarFX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\MazeGenerator\Scripts\TreeMazeGenerator.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHealthLogic.cs" />
     <Compile Include="Assets\Scripts\UI\AmmoUI.cs" />
-    <Compile Include="Assets\JMO Assets\WarFX\Scripts\WFX_LightFlicker.cs" />
     <Compile Include="Assets\Scripts\UI\Shop.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\MazeGenerator\Scripts\MazeCell.cs" />
+    <Compile Include="Assets\OtherAssets\SlimUI\Modern Menu 1\Scripts\ThemeEditor\ThemedUI.cs" />
     <Compile Include="Assets\Scripts\Audio\SceneVolume.cs" />
     <Compile Include="Assets\Scripts\Installers\LevelSystemInstaller.cs" />
+    <Compile Include="Assets\NewInput\WinPanel.cs" />
     <Compile Include="Assets\Scripts\Yandex\YandexSDK.cs" />
-    <Compile Include="Assets\RagdollAddon\RagdollOperations.cs" />
-    <Compile Include="Assets\InChistovick\MazeGenerator\Scripts\BasicMazeGenerator.cs" />
+    <Compile Include="Assets\OtherAssets\FXIFIED\common\Scripts\Quit.cs" />
     <Compile Include="Assets\Scripts\Weapon\Crosshair.cs" />
+    <Compile Include="Assets\OtherAssets\JMO Assets\WarFX\Demo\Assets\WFX_Demo_RandomDir.cs" />
+    <Compile Include="Assets\OtherAssets\RagdollAddon\RigidbodyArrayOperations.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\MazeGenerator\Scripts\DivisionMazeGenerator.cs" />
     <Compile Include="Assets\Scripts\UI\ZombieHealthBar.cs" />
-    <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\ThemeEditor\ThemedUIData.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\MazeGenerator\Scripts\RecursiveMazeGenerator.cs" />
     <Compile Include="Assets\Scripts\UI\RestartPanel.cs" />
     <Compile Include="Assets\Scripts\UI\HealthBar.cs" />
-    <Compile Include="Assets\WinPanel.cs" />
     <Compile Include="Assets\Scripts\Player\Components\Zoom.cs" />
-    <Compile Include="Assets\InChistovick\MazeGenerator\Scripts\OldestTreeMazeGenerator.cs" />
     <Compile Include="Assets\Scripts\UI\Rotator.cs" />
-    <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\WFX_Demo_Wall.cs" />
-    <Compile Include="Assets\JMO Assets\WarFX\Scripts\WFX_BulletHoleDecal.cs" />
-    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
-    <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\CFX_Demo_RandomDir.cs" />
-    <Compile Include="Assets\InChistovick\MazeGenerator\Scripts\RollerBall.cs" />
-    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
-    <Compile Include="Assets\Exit.cs" />
+    <Compile Include="Assets\OtherAssets\SlimUI\Modern Menu 1\Scripts\Managers\UISettingsManager.cs" />
+    <Compile Include="Assets\OtherAssets\SlimUI\Modern Menu 1\Scripts\ThemeEditor\ThemedUIData.cs" />
+    <Compile Include="Assets\OtherAssets\Joystick Pack\Examples\JoystickSetterExample.cs" />
     <Compile Include="Assets\Scripts\LevelSystem\DeathZone.cs" />
-    <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\Audio\CheckMusicVolume.cs" />
+    <Compile Include="Assets\OtherAssets\RagdollAddon\ColliderOperations.cs" />
     <Compile Include="Assets\Scripts\Player\Wallet.cs" />
-    <Compile Include="Assets\InChistovick\MazeGenerator\Scripts\DivisionMazeGenerator.cs" />
     <Compile Include="Assets\Scripts\Player\GoalsCollector.cs" />
     <Compile Include="Assets\Scripts\Weapon\Firearm.cs" />
     <Compile Include="Assets\Scripts\UI\Description.cs" />
-    <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
-    <Compile Include="Assets\FXIFIED\common\Scripts\PowerUp.cs" />
+    <Compile Include="Assets\OtherAssets\SlimUI\Modern Menu 1\Scripts\Audio\CheckMusicVolume.cs" />
     <Compile Include="Assets\Scripts\Weapon\Weapon.cs" />
+    <Compile Include="Assets\OtherAssets\RagdollAddon\SkinnedMeshRendererAttachment.cs" />
+    <Compile Include="Assets\OtherAssets\JMO Assets\WarFX\Demo\Assets\CFX_Demo_Translate.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\MazeGenerator\Scripts\OldestTreeMazeGenerator.cs" />
     <Compile Include="Assets\Scripts\Zombie\PlayerDetection.cs" />
+    <Compile Include="Assets\OtherAssets\Joystick Pack\Scripts\Base\Joystick.cs" />
     <Compile Include="Assets\Scripts\Weapon\WeaponHolder.cs" />
-    <Compile Include="Assets\JMO Assets\WarFX\Spawn System\CFX_SpawnSystem.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\MazeGenerator\Scripts\MazeSpawner.cs" />
     <Compile Include="Assets\Scripts\Installers\VolumeControllerInstaller.cs" />
+    <Compile Include="Assets\OtherAssets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
+    <Compile Include="Assets\OtherAssets\SlimUI\Modern Menu 1\Scripts\Audio\CheckSFXVolume.cs" />
+    <Compile Include="Assets\OtherAssets\JMO Assets\WarFX\Demo\Assets\CFX_Demo_RandomDir.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\MazeGenerator\Scripts\Finish.cs" />
     <Compile Include="Assets\Scripts\Player\FirstPersonMovement.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMobileMovement.cs" />
-    <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\WFX_Demo.cs" />
-    <Compile Include="Assets\SimpleMan\VisualRaycast\Demo\Scripts\Raycaster.cs" />
     <Compile Include="Assets\Scripts\Weapon\Muzzle.cs" />
-    <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
     <Compile Include="Assets\Scripts\Weapon\Hurl.cs" />
-    <Compile Include="Assets\InChistovick\MazeGenerator\Scripts\TreeMazeGenerator.cs" />
-    <Compile Include="Assets\InChistovick\MazeGenerator\Scripts\RecursiveTreeMazeGenerator.cs" />
-    <Compile Include="Assets\InChistovick\MazeGenerator\Scripts\RecursiveMazeGenerator.cs" />
+    <Compile Include="Assets\OtherAssets\JMO Assets\WarFX\Demo\Assets\WFX_Demo_DeleteAfterDelay.cs" />
+    <Compile Include="Assets\OtherAssets\JMO Assets\WarFX\Demo\Assets\WFX_Demo.cs" />
     <Compile Include="Assets\Scripts\UI\TestHack.cs" />
-    <Compile Include="Assets\RagdollAddon\SkinnedMeshRendererAttachment.cs" />
-    <Compile Include="Assets\FXIFIED\common\Scripts\Quit.cs" />
     <Compile Include="Assets\Scripts\Player\Components\GroundCheck.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
-    <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S Multiply Soft.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S Multiply Soft Scroll.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-    <None Include="Assets\JMO Assets\WarFX\_Effects\MuzzleFlashes\!MuzzleFlash Differences.txt" />
-    <None Include="Assets\Fantasy Skybox FREE\Readme.txt" />
-    <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S Alpha-Specular TintColor.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-    <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S Add Scroll.shader" />
+    <None Include="Assets\OtherAssets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\OtherAssets\JMO Assets\WarFX\Shaders\WFX_S Multiply Soft.shader" />
+    <None Include="Assets\OtherAssets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\OtherAssets\JMO Assets\WarFX\Shaders\WFX_S Multiply Soft Scroll.shader" />
+    <None Include="Assets\OtherAssets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\OtherAssets\JMO Assets\WarFX\_Effects\MuzzleFlashes\!MuzzleFlash Differences.txt" />
+    <None Include="Assets\OtherAssets\Fantasy Skybox FREE\Readme.txt" />
+    <None Include="Assets\OtherAssets\JMO Assets\WarFX\Shaders\WFX_S Alpha-Specular TintColor.shader" />
+    <None Include="Assets\OtherAssets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\OtherAssets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\OtherAssets\JMO Assets\WarFX\Shaders\WFX_S Add Scroll.shader" />
     <None Include="Assets\NavMeshComponents-2019.4.0f1\ProjectSettings\ProjectVersion.txt" />
-    <None Include="Assets\Fantasy Skybox FREE\ReleaseNotes.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\JMO Assets\WarFX\_Effects (Mobile)\MuzzleFlashes\!MuzzleFlash Differences.txt" />
-    <None Include="Assets\Newtonsoft.Json-for-Unity-13.0.102\Plugins\Newtonsoft.Json AOT\Newtonsoft.Json.xml" />
-    <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S Particle Add A8.shader" />
-    <None Include="Assets\Newtonsoft.Json-for-Unity-13.0.102\Plugins\Newtonsoft.Json Editor\Newtonsoft.Json.xml" />
-    <None Include="Assets\WebGLTemplates\Notices.txt" />
-    <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S Smoke Scroll.shader" />
-    <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S Particle Multiply A8.shader" />
-    <None Include="Assets\WebGLTemplates\LICENSE.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-    <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S AlphaBlend Scroll.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\Baseball Bats\Documentation\Documentation.txt" />
-    <None Include="Assets\Newtonsoft.Json-for-Unity-13.0.102\Plugins\Newtonsoft.Json AOT\Newtonsoft.Json.dll" />
-    <None Include="Assets\Newtonsoft.Json-for-Unity-13.0.102\Plugins\Newtonsoft.Json Editor\Newtonsoft.Json.dll" />
-    <None Include="Assets\FXIFIED\common\Shaders\RimLight.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S Particle AddSoft A8.shader" />
-    <None Include="Assets\JMO Assets\WarFX\!WarFX Readme.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
-    <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S Alpha-Diffuse TintColor.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
-    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-    <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S AlphaBlend NoSoftParticles.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\OtherAssets\Fantasy Skybox FREE\ReleaseNotes.txt" />
+    <None Include="Assets\OtherAssets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\OtherAssets\JMO Assets\WarFX\_Effects (Mobile)\MuzzleFlashes\!MuzzleFlash Differences.txt" />
+    <None Include="Assets\OtherAssets\Newtonsoft.Json-for-Unity-13.0.102\Plugins\Newtonsoft.Json AOT\Newtonsoft.Json.xml" />
+    <None Include="Assets\OtherAssets\JMO Assets\WarFX\Shaders\WFX_S Particle Add A8.shader" />
+    <None Include="Assets\OtherAssets\Newtonsoft.Json-for-Unity-13.0.102\Plugins\Newtonsoft.Json Editor\Newtonsoft.Json.xml" />
+    <None Include="Assets\OtherAssets\WebGLTemplates\Notices.txt" />
+    <None Include="Assets\OtherAssets\JMO Assets\WarFX\Shaders\WFX_S Smoke Scroll.shader" />
+    <None Include="Assets\OtherAssets\JMO Assets\WarFX\Shaders\WFX_S Particle Multiply A8.shader" />
+    <None Include="Assets\OtherAssets\WebGLTemplates\LICENSE.txt" />
+    <None Include="Assets\OtherAssets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\OtherAssets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\OtherAssets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\OtherAssets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\OtherAssets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\OtherAssets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\OtherAssets\JMO Assets\WarFX\Shaders\WFX_S AlphaBlend Scroll.shader" />
+    <None Include="Assets\OtherAssets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\OtherAssets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\OtherAssets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\OtherAssets\Baseball Bats\Documentation\Documentation.txt" />
+    <None Include="Assets\OtherAssets\Newtonsoft.Json-for-Unity-13.0.102\Plugins\Newtonsoft.Json AOT\Newtonsoft.Json.dll" />
+    <None Include="Assets\OtherAssets\Newtonsoft.Json-for-Unity-13.0.102\Plugins\Newtonsoft.Json Editor\Newtonsoft.Json.dll" />
+    <None Include="Assets\OtherAssets\FXIFIED\common\Shaders\RimLight.shader" />
+    <None Include="Assets\OtherAssets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\OtherAssets\JMO Assets\WarFX\Shaders\WFX_S Particle AddSoft A8.shader" />
+    <None Include="Assets\OtherAssets\JMO Assets\WarFX\!WarFX Readme.txt" />
+    <None Include="Assets\OtherAssets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\OtherAssets\JMO Assets\WarFX\Shaders\WFX_S Alpha-Diffuse TintColor.shader" />
+    <None Include="Assets\OtherAssets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\OtherAssets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\OtherAssets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\OtherAssets\JMO Assets\WarFX\Shaders\WFX_S AlphaBlend NoSoftParticles.shader" />
+    <None Include="Assets\OtherAssets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -572,7 +574,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>Assets\Newtonsoft.Json-for-Unity-13.0.102\Plugins\Newtonsoft.Json Editor\Newtonsoft.Json.dll</HintPath>
+      <HintPath>Assets\OtherAssets\Newtonsoft.Json-for-Unity-13.0.102\Plugins\Newtonsoft.Json Editor\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Zenject.ReflectionBaking.Mono.Cecil">
@@ -1269,25 +1271,33 @@
       <Project>{FFD9DD01-7D18-165E-9246-59C2F03EE996}</Project>
       <Name>NavMeshComponents</Name>
     </ProjectReference>
-    <ProjectReference Include="TNRD.SerializableInterface.csproj">
-      <Project>{0A0CD48C-975D-D7D6-2587-A6B1CB4FAE0D}</Project>
-      <Name>TNRD.SerializableInterface</Name>
-    </ProjectReference>
-    <ProjectReference Include="SimpleMan.VisualRaycast.Editor.csproj">
-      <Project>{8B454502-8CF3-3065-5529-B65EED4D06A4}</Project>
-      <Name>SimpleMan.VisualRaycast.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Zenject-PoolMonitor-Editor.csproj">
       <Project>{A10E435F-6E81-CA43-201D-35F694F8D942}</Project>
       <Name>Zenject-PoolMonitor-Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="TNRD.SerializableInterface.Editor.csproj">
+      <Project>{21CFA8A0-1C82-9E4A-2C80-7A9BAB5CEDB2}</Project>
+      <Name>TNRD.SerializableInterface.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="NaughtyAttributes.Editor.csproj">
+      <Project>{8D6D4617-7343-CC91-50FB-6FE0003D430D}</Project>
+      <Name>NaughtyAttributes.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="NaughtyAttributes.Core.csproj">
+      <Project>{93739E6A-085A-249F-D7C3-6B0C2462A0FD}</Project>
+      <Name>NaughtyAttributes.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="TNRD.SerializableInterface.csproj">
+      <Project>{0A0CD48C-975D-D7D6-2587-A6B1CB4FAE0D}</Project>
+      <Name>TNRD.SerializableInterface</Name>
     </ProjectReference>
     <ProjectReference Include="Zenject-Editor.csproj">
       <Project>{349705B7-0B31-4C4C-FD68-DA0FB1F8679E}</Project>
       <Name>Zenject-Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="NaughtyAttributes.Editor.csproj">
-      <Project>{8D6D4617-7343-CC91-50FB-6FE0003D430D}</Project>
-      <Name>NaughtyAttributes.Editor</Name>
+    <ProjectReference Include="SimpleMan.VisualRaycast.Editor.csproj">
+      <Project>{8B454502-8CF3-3065-5529-B65EED4D06A4}</Project>
+      <Name>SimpleMan.VisualRaycast.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Zenject-ReflectionBaking-Editor.csproj">
       <Project>{35E994D7-055F-7632-530C-60048B6B3018}</Project>
@@ -1301,21 +1311,13 @@
       <Project>{8DCDE731-88E2-AE75-8BC8-FD9772182531}</Project>
       <Name>SimpleMan.VisualRaycast</Name>
     </ProjectReference>
-    <ProjectReference Include="NaughtyAttributes.Test.csproj">
-      <Project>{6451E978-45E5-BCDD-C2FC-0E929C06F65C}</Project>
-      <Name>NaughtyAttributes.Test</Name>
-    </ProjectReference>
-    <ProjectReference Include="NaughtyAttributes.Core.csproj">
-      <Project>{93739E6A-085A-249F-D7C3-6B0C2462A0FD}</Project>
-      <Name>NaughtyAttributes.Core</Name>
-    </ProjectReference>
     <ProjectReference Include="NavMeshComponentsExamples.csproj">
       <Project>{5D6A3994-12E7-552C-8C0D-FE4968B48078}</Project>
       <Name>NavMeshComponentsExamples</Name>
     </ProjectReference>
-    <ProjectReference Include="TNRD.SerializableInterface.Editor.csproj">
-      <Project>{21CFA8A0-1C82-9E4A-2C80-7A9BAB5CEDB2}</Project>
-      <Name>TNRD.SerializableInterface.Editor</Name>
+    <ProjectReference Include="NaughtyAttributes.Test.csproj">
+      <Project>{6451E978-45E5-BCDD-C2FC-0E929C06F65C}</Project>
+      <Name>NaughtyAttributes.Test</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

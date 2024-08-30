@@ -5,10 +5,10 @@ using Zenject;
 
 public class PausePanelInstaller : MonoInstaller
 {
-    [SerializeField] private PausePanel _panel;
+    [SerializeField] private PausePanel panel;
 
     public override void InstallBindings()
     {
-        Container.Bind<PausePanel>().FromInstance(_panel).AsSingle().NonLazy();
+        Container.Bind<PausePanel>().FromInstance(panel).AsSingle().NonLazy();
     }
 }

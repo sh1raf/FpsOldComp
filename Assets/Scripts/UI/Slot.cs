@@ -7,7 +7,6 @@ using Zenject;
 
 public class Slot : MonoBehaviour
 {
-    [Inject] private Shop _shop;
 
     [SerializeField] private Image bounds;
 
@@ -17,6 +16,8 @@ public class Slot : MonoBehaviour
     [field: SerializeField] public Weapon WeaponPrefab;
     [field: SerializeField] public bool IsBought {get; private set;} = false;
     public int Id {get {return WeaponPrefab.ID;} private set{}}
+
+    [Inject] private Shop _shop;
 
     private void Awake()
     {

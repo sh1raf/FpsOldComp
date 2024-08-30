@@ -6,7 +6,7 @@ using Zenject;
 
 public class WaultUI : MonoBehaviour
 {
-    [SerializeField] private TMP_Text _tmp;
+    [SerializeField] private TMP_Text tmp;
     [Inject] Shop _shop;
 
     private void Awake()
@@ -22,6 +22,6 @@ public class WaultUI : MonoBehaviour
 
     public void WaultChange()
     {
-        _tmp.text = PlayerPrefs.GetInt("Goals").ToString();
+        tmp.text = PlayerPrefs.GetInt("Goals").ToString();
     }
 }

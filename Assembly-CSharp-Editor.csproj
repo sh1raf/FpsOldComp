@@ -56,16 +56,18 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Users\mrshr\OneDrive\Документы\GitHub\FpsOldComp\Assets\OtherAssets\Newtonsoft.Json-for-Unity-13.0.102\Plugins\Newtonsoft.Json AOT\Newtonsoft.Json.dll" />
+    <Analyzer Include="C:\Users\mrshr\OneDrive\Документы\GitHub\FpsOldComp\Assets\OtherAssets\Newtonsoft.Json-for-Unity-13.0.102\Plugins\Newtonsoft.Json Editor\Newtonsoft.Json.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.37f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.37f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\JMO Assets\WarFX\Editor\CFX_SpawnSystemEditor.cs" />
-    <Compile Include="Assets\Joystick Pack\Scripts\Editor\DynamicJoystickEditor.cs" />
-    <Compile Include="Assets\Joystick Pack\Scripts\Editor\FloatingJoystickEditor.cs" />
-    <Compile Include="Assets\Joystick Pack\Scripts\Editor\JoystickEditor.cs" />
-    <Compile Include="Assets\SlimUI\Editor\SlimUIWindow.cs" />
-    <Compile Include="Assets\Joystick Pack\Scripts\Editor\VariableJoystickEditor.cs" />
+    <Compile Include="Assets\OtherAssets\Joystick Pack\Scripts\Editor\JoystickEditor.cs" />
+    <Compile Include="Assets\OtherAssets\Joystick Pack\Scripts\Editor\FloatingJoystickEditor.cs" />
+    <Compile Include="Assets\OtherAssets\Joystick Pack\Scripts\Editor\DynamicJoystickEditor.cs" />
+    <Compile Include="Assets\OtherAssets\JMO Assets\WarFX\Editor\CFX_SpawnSystemEditor.cs" />
+    <Compile Include="Assets\OtherAssets\SlimUI\Editor\SlimUIWindow.cs" />
+    <Compile Include="Assets\OtherAssets\Joystick Pack\Scripts\Editor\VariableJoystickEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -469,7 +471,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>Assets\Newtonsoft.Json-for-Unity-13.0.102\Plugins\Newtonsoft.Json Editor\Newtonsoft.Json.dll</HintPath>
+      <HintPath>Assets\OtherAssets\Newtonsoft.Json-for-Unity-13.0.102\Plugins\Newtonsoft.Json Editor\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
@@ -1202,25 +1204,33 @@
       <Project>{FFD9DD01-7D18-165E-9246-59C2F03EE996}</Project>
       <Name>NavMeshComponents</Name>
     </ProjectReference>
-    <ProjectReference Include="TNRD.SerializableInterface.csproj">
-      <Project>{0A0CD48C-975D-D7D6-2587-A6B1CB4FAE0D}</Project>
-      <Name>TNRD.SerializableInterface</Name>
-    </ProjectReference>
-    <ProjectReference Include="SimpleMan.VisualRaycast.Editor.csproj">
-      <Project>{8B454502-8CF3-3065-5529-B65EED4D06A4}</Project>
-      <Name>SimpleMan.VisualRaycast.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Zenject-PoolMonitor-Editor.csproj">
       <Project>{A10E435F-6E81-CA43-201D-35F694F8D942}</Project>
       <Name>Zenject-PoolMonitor-Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="TNRD.SerializableInterface.Editor.csproj">
+      <Project>{21CFA8A0-1C82-9E4A-2C80-7A9BAB5CEDB2}</Project>
+      <Name>TNRD.SerializableInterface.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="NaughtyAttributes.Editor.csproj">
+      <Project>{8D6D4617-7343-CC91-50FB-6FE0003D430D}</Project>
+      <Name>NaughtyAttributes.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="NaughtyAttributes.Core.csproj">
+      <Project>{93739E6A-085A-249F-D7C3-6B0C2462A0FD}</Project>
+      <Name>NaughtyAttributes.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="TNRD.SerializableInterface.csproj">
+      <Project>{0A0CD48C-975D-D7D6-2587-A6B1CB4FAE0D}</Project>
+      <Name>TNRD.SerializableInterface</Name>
     </ProjectReference>
     <ProjectReference Include="Zenject-Editor.csproj">
       <Project>{349705B7-0B31-4C4C-FD68-DA0FB1F8679E}</Project>
       <Name>Zenject-Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="NaughtyAttributes.Editor.csproj">
-      <Project>{8D6D4617-7343-CC91-50FB-6FE0003D430D}</Project>
-      <Name>NaughtyAttributes.Editor</Name>
+    <ProjectReference Include="SimpleMan.VisualRaycast.Editor.csproj">
+      <Project>{8B454502-8CF3-3065-5529-B65EED4D06A4}</Project>
+      <Name>SimpleMan.VisualRaycast.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Zenject-ReflectionBaking-Editor.csproj">
       <Project>{35E994D7-055F-7632-530C-60048B6B3018}</Project>
@@ -1234,21 +1244,13 @@
       <Project>{8DCDE731-88E2-AE75-8BC8-FD9772182531}</Project>
       <Name>SimpleMan.VisualRaycast</Name>
     </ProjectReference>
-    <ProjectReference Include="NaughtyAttributes.Test.csproj">
-      <Project>{6451E978-45E5-BCDD-C2FC-0E929C06F65C}</Project>
-      <Name>NaughtyAttributes.Test</Name>
-    </ProjectReference>
-    <ProjectReference Include="NaughtyAttributes.Core.csproj">
-      <Project>{93739E6A-085A-249F-D7C3-6B0C2462A0FD}</Project>
-      <Name>NaughtyAttributes.Core</Name>
-    </ProjectReference>
     <ProjectReference Include="NavMeshComponentsExamples.csproj">
       <Project>{5D6A3994-12E7-552C-8C0D-FE4968B48078}</Project>
       <Name>NavMeshComponentsExamples</Name>
     </ProjectReference>
-    <ProjectReference Include="TNRD.SerializableInterface.Editor.csproj">
-      <Project>{21CFA8A0-1C82-9E4A-2C80-7A9BAB5CEDB2}</Project>
-      <Name>TNRD.SerializableInterface.Editor</Name>
+    <ProjectReference Include="NaughtyAttributes.Test.csproj">
+      <Project>{6451E978-45E5-BCDD-C2FC-0E929C06F65C}</Project>
+      <Name>NaughtyAttributes.Test</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

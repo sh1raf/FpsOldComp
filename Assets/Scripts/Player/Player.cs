@@ -6,7 +6,6 @@ using Zenject;
 
 public class Player : MonoBehaviour
 {
-
     [SerializeField] private Transform centerOfBody;
     public Transform CenterOfBody {get {return centerOfBody;} private set{}}
 

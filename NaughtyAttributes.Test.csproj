@@ -56,49 +56,51 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Users\mrshr\OneDrive\Документы\GitHub\FpsOldComp\Assets\OtherAssets\Newtonsoft.Json-for-Unity-13.0.102\Plugins\Newtonsoft.Json AOT\Newtonsoft.Json.dll" />
+    <Analyzer Include="C:\Users\mrshr\OneDrive\Документы\GitHub\FpsOldComp\Assets\OtherAssets\Newtonsoft.Json-for-Unity-13.0.102\Plugins\Newtonsoft.Json Editor\Newtonsoft.Json.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.37f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.37f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\ButtonTest.cs" />
-    <Compile Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\CurveRangeTest.cs" />
-    <Compile Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\FoldoutTest.cs" />
-    <Compile Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\ShowNativePropertyTest.cs" />
-    <Compile Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\AnimatorParamTest.cs" />
-    <Compile Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\ReadOnlyTest.cs" />
-    <Compile Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\HorizontalLineTest.cs" />
-    <Compile Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\OnValueChangedTest.cs" />
-    <Compile Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\RequiredTest.cs" />
-    <Compile Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\TagTest.cs" />
-    <Compile Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\EnumFlagsTest.cs" />
-    <Compile Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\MinMaxValueTest.cs" />
-    <Compile Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\ResizableTextAreaTest.cs" />
-    <Compile Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\LabelTest.cs" />
-    <Compile Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\SortingLayerTest.cs" />
-    <Compile Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\SceneTest.cs" />
-    <Compile Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\ShowAssetPreviewTest.cs" />
-    <Compile Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\_NaughtyScriptableObject.cs" />
-    <Compile Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\ProgressBarTest.cs" />
-    <Compile Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\InputAxisTest.cs" />
-    <Compile Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\_NaughtyComponent.cs" />
-    <Compile Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\BoxGroupTest.cs" />
-    <Compile Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\ReorderableListTest.cs" />
-    <Compile Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\HideIfTest.cs" />
-    <Compile Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\MinMaxSliderTest.cs" />
-    <Compile Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\ShowIfTest.cs" />
-    <Compile Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\LayerTest.cs" />
-    <Compile Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\ShowNonSerializedFieldTest.cs" />
-    <Compile Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\InfoBoxTest.cs" />
-    <Compile Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\_TestScriptableObjectB.cs" />
-    <Compile Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\DropdownTest.cs" />
-    <Compile Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\_TestScriptableObjectA.cs" />
-    <Compile Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\ExpandableTest.cs" />
-    <Compile Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\ValidateInputTest.cs" />
-    <Compile Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\EnableIfTest.cs" />
-    <Compile Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\DisableIfTest.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\_TestScriptableObjectB.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\InputAxisTest.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\ShowIfTest.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\ShowNativePropertyTest.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\ValidateInputTest.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\CurveRangeTest.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\ProgressBarTest.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\EnumFlagsTest.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\FoldoutTest.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\InfoBoxTest.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\DropdownTest.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\LayerTest.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\TagTest.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\HideIfTest.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\ExpandableTest.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\OnValueChangedTest.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\SceneTest.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\MinMaxSliderTest.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\_TestScriptableObjectA.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\EnableIfTest.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\DisableIfTest.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\ButtonTest.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\MinMaxValueTest.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\LabelTest.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\_NaughtyScriptableObject.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\ShowNonSerializedFieldTest.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\_NaughtyComponent.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\ReorderableListTest.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\ShowAssetPreviewTest.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\SortingLayerTest.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\ResizableTextAreaTest.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\RequiredTest.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\HorizontalLineTest.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\AnimatorParamTest.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\BoxGroupTest.cs" />
+    <Compile Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\ReadOnlyTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\InChistovick\NaughtyAttributes\Scripts\Test\NaughtyAttributes.Test.asmdef" />
+    <None Include="Assets\OtherAssets\InChistovick\NaughtyAttributes\Scripts\Test\NaughtyAttributes.Test.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -498,7 +500,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>Assets\Newtonsoft.Json-for-Unity-13.0.102\Plugins\Newtonsoft.Json Editor\Newtonsoft.Json.dll</HintPath>
+      <HintPath>Assets\OtherAssets\Newtonsoft.Json-for-Unity-13.0.102\Plugins\Newtonsoft.Json Editor\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">

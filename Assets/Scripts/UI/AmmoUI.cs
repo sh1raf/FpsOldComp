@@ -10,8 +10,9 @@ public class AmmoUI : MonoBehaviour
     [SerializeField] private TMP_Text currentAmmoTMP;
     [SerializeField] private TMP_Text freeAmmoTMP;
 
-    private Weapon _currentWeapon;
     [Inject] private WeaponHolder _holder;
+
+    private Weapon _currentWeapon;
 
     private void Awake()
     {

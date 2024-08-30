@@ -7,12 +7,13 @@ using Plugins.Audio.Core;
 public class VolumeController : MonoBehaviour
 {
     [SerializeField] private AudioMixerGroup master;
+    
+    public bool MusicOn { get { return _musicOn; } private set { } }
+    public bool SoundsOn { get { return _soundsOn; } private set { } }
+
 
     private bool _musicOn = true;
     private bool _soundsOn = true;
-
-    public bool MusicOn { get { return _musicOn; } private set { } }
-    public bool SoundsOn { get { return _soundsOn; } private set { } }
 
     public void MusicToggle()
     {

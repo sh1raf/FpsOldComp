@@ -6,9 +6,8 @@ using UnityEngine.InputSystem;
 
 public class FirstPersonMovement : MonoBehaviour
 {
-    public float speed = 5;
+    [SerializeField] private float speed = 5;
 
-    [Header("Running")]
     [SerializeField] private float runSpeed = 9;
 
     [SerializeField] private Transform cam;

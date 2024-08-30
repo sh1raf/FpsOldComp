@@ -12,8 +12,9 @@ public class HealthBar : MonoBehaviour
 
     [Inject] private PlayerHealthLogic _playerHealth;
 
-    private int _currentHealth;
     private List<Image> _hearts = new();
+
+    private int _currentHealth;
 
     private void Awake()
     {

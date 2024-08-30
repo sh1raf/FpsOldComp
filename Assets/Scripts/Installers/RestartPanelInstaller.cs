@@ -5,10 +5,10 @@ using Zenject;
 
 public class RestartPanelInstaller : MonoInstaller
 {
-    [SerializeField] private RestartPanel _panel;
+    [SerializeField] private RestartPanel panel;
 
     public override void InstallBindings()
     {
-        Container.Bind<RestartPanel>().FromInstance(_panel).AsSingle().NonLazy();
+        Container.Bind<RestartPanel>().FromInstance(panel).AsSingle().NonLazy();
     }
 }
