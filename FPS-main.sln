@@ -1,0 +1,105 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaughtyAttributes.Test", "NaughtyAttributes.Test.csproj", "{2ec09841-efcf-158d-b5a6-4772ae0a9ef6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zenject", "Zenject.csproj", "{551266be-a24a-7775-ca65-5df777cc117f}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaughtyAttributes.Core", "NaughtyAttributes.Core.csproj", "{dd32e694-bd2e-f133-108d-b5d0e5d4007d}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zenject-IntegrationTests", "Zenject-IntegrationTests.csproj", "{4a71d025-0813-4274-e8a0-cb383a8da08c}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zenject-IntegrationTests-Editor", "Zenject-IntegrationTests-Editor.csproj", "{33fd3fb3-a721-fc91-1809-02b8628754c3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{90980392-e06d-d916-48fe-824d7c73cf56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TNRD.SerializableInterface", "TNRD.SerializableInterface.csproj", "{b1bd87e5-a62c-b577-48c3-9fa29d67e113}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavMeshComponentsTestsPlaymode", "NavMeshComponentsTestsPlaymode.csproj", "{6e26fbe5-dff2-7c73-a28b-5e307460c4d1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMan.VisualRaycast", "SimpleMan.VisualRaycast.csproj", "{93f56f63-a7ce-2bfe-7a3b-f884c0266843}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavMeshComponentsExamples", "NavMeshComponentsExamples.csproj", "{9d618750-e1cb-5208-2ae9-977501e5d3aa}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavMeshComponents", "NavMeshComponents.csproj", "{9f6046be-34e9-6fee-673f-b38f8999b5bd}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zenject-PoolMonitor-Editor", "Zenject-PoolMonitor-Editor.csproj", "{61e6d191-0a4a-404c-5a43-377a21f208a4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zenject-UnitTests-Editor", "Zenject-UnitTests-Editor.csproj", "{e477388e-6e98-6416-e899-fefe009aa90a}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaughtyAttributes.Editor", "NaughtyAttributes.Editor.csproj", "{c4d78624-43c5-ab7c-75b8-5764ae3a4a64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zenject-ReflectionBaking-Editor", "Zenject-ReflectionBaking-Editor.csproj", "{9e75e78b-0180-5954-689f-d3fa67ad4182}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zenject-TestFramework", "Zenject-TestFramework.csproj", "{90f865ba-4d15-9136-7431-51252042e44b}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TNRD.SerializableInterface.Editor", "TNRD.SerializableInterface.Editor.csproj", "{db775bc5-181e-d76c-d643-14b58151c938}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zenject-Editor", "Zenject-Editor.csproj", "{d2e23ee0-db57-ba95-86a3-86c563124e22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMan.VisualRaycast.Editor", "SimpleMan.VisualRaycast.Editor.csproj", "{fdf067f3-8d40-96b9-f44f-12a722d70581}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavMeshComponentsEditor", "NavMeshComponentsEditor.csproj", "{6f3d8808-e151-4510-b6f6-069460f1da51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavMeshComponentsTestsEditmode", "NavMeshComponentsTestsEditmode.csproj", "{3a0c05e9-0997-7f23-df15-86610509bc53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{6f34554e-d0fb-cf2f-261b-d1d5b84add7c}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavMeshComponentsExamplesEditor", "NavMeshComponentsExamplesEditor.csproj", "{ba8cb4a3-1752-3ec1-a3fc-0fe3690448e7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2ec09841-efcf-158d-b5a6-4772ae0a9ef6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ec09841-efcf-158d-b5a6-4772ae0a9ef6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{551266be-a24a-7775-ca65-5df777cc117f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{551266be-a24a-7775-ca65-5df777cc117f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{dd32e694-bd2e-f133-108d-b5d0e5d4007d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{dd32e694-bd2e-f133-108d-b5d0e5d4007d}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4a71d025-0813-4274-e8a0-cb383a8da08c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4a71d025-0813-4274-e8a0-cb383a8da08c}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33fd3fb3-a721-fc91-1809-02b8628754c3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33fd3fb3-a721-fc91-1809-02b8628754c3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90980392-e06d-d916-48fe-824d7c73cf56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90980392-e06d-d916-48fe-824d7c73cf56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{b1bd87e5-a62c-b577-48c3-9fa29d67e113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{b1bd87e5-a62c-b577-48c3-9fa29d67e113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6e26fbe5-dff2-7c73-a28b-5e307460c4d1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6e26fbe5-dff2-7c73-a28b-5e307460c4d1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93f56f63-a7ce-2bfe-7a3b-f884c0266843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93f56f63-a7ce-2bfe-7a3b-f884c0266843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9d618750-e1cb-5208-2ae9-977501e5d3aa}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9d618750-e1cb-5208-2ae9-977501e5d3aa}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9f6046be-34e9-6fee-673f-b38f8999b5bd}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9f6046be-34e9-6fee-673f-b38f8999b5bd}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61e6d191-0a4a-404c-5a43-377a21f208a4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61e6d191-0a4a-404c-5a43-377a21f208a4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{e477388e-6e98-6416-e899-fefe009aa90a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{e477388e-6e98-6416-e899-fefe009aa90a}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{c4d78624-43c5-ab7c-75b8-5764ae3a4a64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{c4d78624-43c5-ab7c-75b8-5764ae3a4a64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9e75e78b-0180-5954-689f-d3fa67ad4182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9e75e78b-0180-5954-689f-d3fa67ad4182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90f865ba-4d15-9136-7431-51252042e44b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90f865ba-4d15-9136-7431-51252042e44b}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{db775bc5-181e-d76c-d643-14b58151c938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{db775bc5-181e-d76c-d643-14b58151c938}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{d2e23ee0-db57-ba95-86a3-86c563124e22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{d2e23ee0-db57-ba95-86a3-86c563124e22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{fdf067f3-8d40-96b9-f44f-12a722d70581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{fdf067f3-8d40-96b9-f44f-12a722d70581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6f3d8808-e151-4510-b6f6-069460f1da51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6f3d8808-e151-4510-b6f6-069460f1da51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3a0c05e9-0997-7f23-df15-86610509bc53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3a0c05e9-0997-7f23-df15-86610509bc53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6f34554e-d0fb-cf2f-261b-d1d5b84add7c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6f34554e-d0fb-cf2f-261b-d1d5b84add7c}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ba8cb4a3-1752-3ec1-a3fc-0fe3690448e7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ba8cb4a3-1752-3ec1-a3fc-0fe3690448e7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
