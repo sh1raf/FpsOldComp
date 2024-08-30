@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4645132edefd4c74968a0c941a98fb89, type: 3}
+  m_Name: Audio Database
+  m_EditorClassIdentifier: 
+  _items:
+  - Clip: {fileID: 8300000, guid: 4f7335dee40c7d0488cd3fb61098ca63, type: 3}
+    Key: MainMusic
+    FolderPath: Audio\
+    Name: MainMusic.mp3
+    Preload: 1
+    _id: 04268246-91b3-4260-8d41-42161a58da8b
+  - Clip: {fileID: 8300000, guid: f8c14f2814b4b124a894a65c32c44987, type: 3}
+    Key: Steps
+    FolderPath: Audio\
+    Name: Steps.wav
+    Preload: 1
+    _id: cf0f5be6-d142-40e6-842f-3366be426263
+  - Clip: {fileID: 8300000, guid: b16dc74b7376aca46bd0c6be96c940fa, type: 3}
+    Key: Jump
+    FolderPath: Audio\Jump\
+    Name: Jump3.wav
+    Preload: 1
+    _id: 9a57bd5a-9288-4f70-b273-4d62f5a7e1fb
+  - Clip: {fileID: 8300000, guid: 53cf17f6f08790842b5ce5719ebee4d8, type: 3}
+    Key: Scream
+    FolderPath: Audio\
+    Name: Zombie.mp3
+    Preload: 1
+    _id: 3d144513-724a-4411-96ca-1723cd2f5708
+  - Clip: {fileID: 8300000, guid: bbe65e6e76be2ea40838c8e8eeef4ffd, type: 3}
+    Key: PistolShoot
+    FolderPath: Audio\
+    Name: GunShotSnglShotInPE1097906.wav
+    Preload: 1
+    _id: 92507580-a220-4806-bb99-5bd87840c81a
+  - Clip: {fileID: 8300000, guid: 41a54406b4327814ca125a4002245ef6, type: 3}
+    Key: GetOut
+    FolderPath: Audio\
+    Name: shifting-items-inside-backpack-02.mp3
+    Preload: 1
+    _id: 03b49e3a-1dbe-4db1-ad21-c5713e417208
+  - Clip: {fileID: 8300000, guid: 608939568cf56af44b377cd838df5a57, type: 3}
+    Key: RiffleShot
+    FolderPath: Audio\
+    Name: shootAutomatic.mp3
+    Preload: 1
+    _id: e303a4f3-b267-4cb6-92d1-886b0deb2a22
+  - Clip: {fileID: 8300000, guid: f54c5451b0c79f743a0ba89a5077eb30, type: 3}
+    Key: RPGShoot
+    FolderPath: Audio\
+    Name: GrenadeLauncherShot8-QuickSounds.com.mp3
+    Preload: 1
+    _id: c3b918f5-2321-4215-8488-36e0cb1cd22d
+  - Clip: {fileID: 8300000, guid: 6ba98d4894737a64080fd635cb102023, type: 3}
+    Key: BeatHit
+    FolderPath: Audio\
+    Name: mixkit-bed-pillow-hit-the-mattress-1901.wav
+    Preload: 1
+    _id: 5747853d-dbb5-42e0-bb0f-a816c726c3ee
+  - Clip: {fileID: 8300000, guid: 50dee191f1af3994c99e69c8c4e2c104, type: 3}
+    Key: Coin
+    FolderPath: InChistovick\MazeGenerator\Sounds\
+    Name: Coin.wav
+    Preload: 1
+    _id: 625e7cea-706d-4a16-a493-a0c08e4c292c

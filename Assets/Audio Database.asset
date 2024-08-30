@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4645132edefd4c74968a0c941a98fb89, type: 3}
+  m_Name: Audio Database
+  m_EditorClassIdentifier: 
+  _items:
+  - Clip: {fileID: 8300000, guid: 4f7335dee40c7d0488cd3fb61098ca63, type: 3}
+    Key: MainMusic
+    FolderPath: Audio\
+    Name: MainMusic.mp3
+    Preload: 1
+    _id: 63b01216-a9d5-45fb-a7f5-317052748552
+  - Clip: {fileID: 0}
+    Key: 
+    FolderPath: 
+    Name: 
+    Preload: 1
+    _id: 3336bbe9-4a29-4590-aaf4-3ea7e9882f84
+  - Clip: {fileID: 0}
+    Key: 
+    FolderPath: 
+    Name: 
+    Preload: 1
+    _id: 07374066-72fb-4c16-80ee-b2d7066db0a6
+  - Clip: {fileID: 0}
+    Key: 
+    FolderPath: 
+    Name: 
+    Preload: 1
+    _id: b5414918-3484-4219-805e-2629b51c917d
+  - Clip: {fileID: 0}
+    Key: 
+    FolderPath: 
+    Name: 
+    Preload: 1
+    _id: a7f759b7-5b1c-475e-87d4-ab7416a38575
+  - Clip: {fileID: 0}
+    Key: 
+    FolderPath: 
+    Name: 
+    Preload: 1
+    _id: b9f85b74-d6aa-41f5-8bd1-7ed212c25a4d
